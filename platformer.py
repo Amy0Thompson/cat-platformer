@@ -7,7 +7,7 @@ screen_width = 500
 screen_height = 500
 #adding screen dimensions for game
 
-screen = pygame.display.set_mode(screen_height, screen_width)
+screen = pygame.display.set_mode((screen_height, screen_width))
 pygame.display.set_caption('Jump Cat')
 #game display + title
 
